@@ -1,0 +1,21 @@
+{
+  "name": "creator-subscription-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site de assinaturas com Pix manual, comprovantes e painel administrativo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "multer": "^1.4.5-lts.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5"
+  }
+}
